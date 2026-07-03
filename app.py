@@ -88,4 +88,4 @@ if st.button("Prediksi", type="primary"):
             st.bar_chart(dict(zip(model.classes_, model.predict_proba(vek)[0])))
 
 st.divider()
-st.caption("Proyek Akhir Text Mining — Perbandingan ML Klasik vs Transformer")
+st.caption("Proyek Akhir Teks Mining — Perbandingan ML Klasik vs Transformer")
