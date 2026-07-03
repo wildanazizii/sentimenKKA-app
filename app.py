@@ -59,7 +59,7 @@ pilihan = st.radio("Pilih model:", ["IndoBERT", "Logistic Regression"],
                    horizontal=True)
 
 komentar = st.text_area("Masukkan komentar YouTube:", height=120,
-                        placeholder="Contoh: Program KKA bagus, tapi fasilitas di daerah harus dipersiapkan dulu...")
+                        placeholder="Contoh: Program KKA bagus, tapi fasilitas di daerah harus dipersiapkan dulu")
 
 warna = {"positif": "🟢", "netral": "🟡", "negatif": "🔴"}
 
