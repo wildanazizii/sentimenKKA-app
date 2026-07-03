@@ -65,7 +65,7 @@ warna = {"positif": "🟢", "netral": "🟡", "negatif": "🔴"}
 
 if st.button("Prediksi", type="primary"):
     if not komentar.strip():
-        st.warning("Tolong isi komentar dulu.")
+        st.warning("Isi komentar dulu")
 
     elif pilihan.startswith("IndoBERT"):
         with st.spinner("Memuat IndoBERT"):
